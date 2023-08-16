@@ -1,21 +1,21 @@
 :root {
     --primary-color: darkslategrey;
     --primary-font-color: white;
+    --secondary-font-color: #7a7a7a;
     --vertical-padding: 1px;
     --left-padding: 20px;
 }
 
 .AboutView {
-    background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(19,157,128,1) 100%);
     padding-top: var(--vertical-padding);
     padding-bottom: var(--vertical-padding);
     margin-top: 2px;
     font-family: 'OCR A std', monospace;
-
 }
 
-.Header {
+h1.Header {
     font-size: 48px;
+    font-weight: 1000;
     text-align: left;
     margin-left: var(--left-padding);
     margin-bottom: -10px;
@@ -23,15 +23,46 @@
 }
 
 .SubHeader {
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0px;
     margin-left: var(--left-padding);
     color: var(--primary-font-color);
 }
 
-.Text {
+.SubText {
     font-size: 18px;
     text-align: left;
+    margin-top: 10px;
     margin-left: var(--left-padding);
-    color: var(--primary-font-color);
+    color: var(--secondary-font-color);
+}
+
+.Socials {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 30p;
+    margin-bottom: 10px;
+    fill: var(--secondary-font-color);
+}
+
+div.Body-Text {
+    margin-top: 100px;
+}
+
+a.Link:link {
+    text-decoration: none;
+}
+
+a.Link:visited {
+    text-decoration: none;
+}
+
+a.Link:hover {
+    text-decoration: none;
+}
+
+a.Link:active {
+    text-decoration: none;
 }
