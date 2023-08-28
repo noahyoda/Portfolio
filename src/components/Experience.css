@@ -56,3 +56,11 @@
 .KeyAccomp {
     color: var(--other-color);
 }
+
+a.Link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--other-color);
+}
+a.Link:hover h3 {
+    color: var(--other-color)
+}
