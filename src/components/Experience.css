@@ -3,49 +3,38 @@
     --secondary-font-color: #7a7a7a;
     --vertical-padding: 1px;
     --left-padding: 20px;
+    --other-color: rgb(5, 160, 126);
 }
 
 .ExperienceItem {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
     padding-top: var(--vertical-padding);
     padding-bottom: var(--vertical-padding);
-    margin-top: 2px;
     font-family: 'OCR A std', monospace;
 }
 
-.Header {
-    font-size: 24px;
-    text-align: left;
-    margin-left: var(--left-padding);
-    color: var(--primary-font-color);
-}
-
-.SubText {
-    font-size: 18px;
-    text-align: left;
-    margin-left: var(--left-padding);
-    color: var(--secondary-font-color);
-}
 
 .Date-Column {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     margin-left: var(--left-padding);
-    margin-right: 90px;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    width: 80%;
     color: var(--secondary-font-color);
 }
 
 .Title {
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     color: var(--primary-font-color);
 }
 
-.Company {
-    font-size: 18px;
+.SubTitle {
+    font-size: 16px;
     color: var(--secondary-font-color);
-    margin-top: -10px;
+    margin-top: -1%;
     margin-bottom: 0;
 }
 
@@ -54,4 +43,16 @@
     text-align: left;
     margin-top: 10px;
     color: var(--secondary-font-color);
+}
+
+.Accomplishment {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 14px;
+    color: var(--secondary-font-color);
+
+}
+
+.KeyAccomp {
+    color: var(--other-color);
 }
