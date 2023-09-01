@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="AboutView">
             <div className="Head-Text">
-            <h1 className="Header">Noah Jaussi</h1>
+            <h1 className="Title">Noah Jaussi</h1>
             <h3 className="SubHeader">Software Engineer</h3>
             <p className="SubText">I make cool stuff and things.</p>
             <div className="Socials">

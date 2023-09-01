@@ -6,7 +6,7 @@ function SingleExperience(props) {
         <div className="Exp-Column">
             <h3 className='Title'>{props.title}</h3>
             <a className='Link' href={props.link}>
-                <h3 className='SubTitle'>{props.company}</h3>
+                <h3 className='Link-Text'>{props.company} <i class="fa fa-chain"></i></h3>
             </a>
             <p className='Description'>
                 {props.description}
@@ -41,10 +41,20 @@ export default function Experience() {
         description: "Developed multiple inhouse software development tools with a team that involved languages such as C, C++, and Python. Implemented the use of low level data manipulation (endianness, signage, etc), multithreading, memory locks, networking (TCP, UDP, Multicast), GUI work in C++, and data visualization. More info available upon request.",
         accomplishments: ["Created an application that replaced legacy software to load software onto embedded devices with substantial speed and throughput increases.",
             "Added additional data analysis visualization capabilities to existing time keeping software"]
+    },
+    {
+        title: "I.T. Intern",
+        company: "Kahuku Medical Center",
+        link: "https://www.kmc-hi.org/",
+        time: "April 2020 - May 2020",
+        description: "Supported an I.T. team for the commnuity medical center duging the beginning of the pandemic.",
+        accomplishments: ["Lead and implemented a project to upgrade the company computer backlog from Windows 7 to Windows 10.",
+        "Administered tech support to employees through device maintenance and technical consultation during the beginning of the pandemic."]
     }]
 
     return (
         <div className="ExperienceView">
+            <h2 classname="SubHeader">Experience</h2>
             {exp.map((item) => {
                 return (
                     <div className='ExperienceItem'>

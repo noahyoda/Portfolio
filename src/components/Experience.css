@@ -4,6 +4,17 @@
     --vertical-padding: 1px;
     --left-padding: 20px;
     --other-color: rgb(5, 160, 126);
+    --link-color: rgb(3, 165, 252);
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: var(--left-padding);
+    color: var(--primary-font-color);
+    font-family: 'OCR A std', monospace;
 }
 
 .ExperienceItem {
@@ -14,13 +25,12 @@
     font-family: 'OCR A std', monospace;
 }
 
-
 .Date-Column {
     font-size: 14px;
     text-align: left;
     margin-left: var(--left-padding);
     margin-right: 2%;
-    margin-top: 0.5%;
+    margin-top: 2.5%;
     width: 80%;
     color: var(--secondary-font-color);
 }
@@ -50,17 +60,23 @@
     margin-top: 1%;
     font-size: 14px;
     color: var(--secondary-font-color);
-
 }
 
 .KeyAccomp {
+    color: var(--primary-font-color);
+}
+
+.Link-Text {
+    font-size: 16px;
     color: var(--other-color);
+    text-decoration: underline;
 }
 
 a.Link:hover {
     text-decoration: underline;
-    text-decoration-color: var(--other-color);
+    text-decoration-color: var(--link-color);
 }
+
 a.Link:hover h3 {
-    color: var(--other-color)
+    color: var(--link-color)
 }
