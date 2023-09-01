@@ -43,7 +43,7 @@ h1.Title {
     display: flex;
     margin-left: 10px;
     margin-right: 30p;
-    margin-bottom: 10px;
+    margin-bottom: -3%;
     fill: var(--secondary-font-color);
 }
 
@@ -65,4 +65,12 @@ a.Link:hover {
 
 a.Link:active {
     text-decoration: none;
+}
+
+.Mail {
+    margin-top: -2px;
+}
+
+.Git {
+    margin-top: 1px;
 }

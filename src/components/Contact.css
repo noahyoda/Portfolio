@@ -1,0 +1,50 @@
+:root {
+    --primary-color: darkslategrey;
+    --primary-font-color: white;
+    --secondary-font-color: #7a7a7a;
+    --vertical-padding: 1px;
+    --left-margin: 2%;
+}
+
+.ContactView {
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    margin-top: 2px;
+    font-family: 'OCR A std', monospace;
+}
+
+h2.Header {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: var(--left-margin);
+    color: var(--primary-font-color);
+}
+
+.SubText {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: var(--left-margin);
+    color: var(--secondary-font-color);
+}
+
+.InputHead {
+    font-size: 18px;
+    text-align: center;
+    margin-left: var(--left-margin);
+    margin-right: 10px;
+    color: var(--primary-font-color);
+}
+
+.Input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Submit {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
