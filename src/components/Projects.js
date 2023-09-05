@@ -1,5 +1,4 @@
 import './Projects.css'
-import ray_trace from './raytracer.png'
 
 function Project(props){
     if (props.link === ""){
@@ -28,13 +27,13 @@ export default function Projects() {
             title: "Portfolio Website",
             description: "Designed, developed, and deployed this portfolio website using React.js, CSS, and Netlify.",
             img: "https://res.cloudinary.com/practicaldev/image/fetch/s--qo_Wp38Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/e0nl7ziy1la7bpwj7rsp.png",
-            link: {ray_trace},
+            link: "https://github.com/noahyoda/Portfolio/blob/main/src/resources/ray_tracing.png?raw=true",
             tag: "Image Portfolio"
         },
         {
             title: "WebGL Raytracer",
             description: "Designed and developed a raytracing scene using WebGL and Javascript for a computer graphics course.",
-            img: "./resources/raytracer.png",
+            img: "https://github.com/noahyoda/Portfolio/blob/main/src/resources/ray_tracing.png?raw=true",
             link: "",
             tag: "Image Raytracer"
         },
