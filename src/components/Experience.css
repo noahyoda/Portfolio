@@ -39,6 +39,7 @@ h2 {
     font-size: 20px;
     text-align: left;
     color: var(--primary-font-color);
+    margin-bottom: -1%;
 }
 
 .SubTitle {
@@ -46,13 +47,6 @@ h2 {
     color: var(--secondary-font-color);
     margin-top: -1%;
     margin-bottom: 0;
-}
-
-.Description {
-    font-size: 16px;
-    text-align: left;
-    margin-top: 10px;
-    color: var(--secondary-font-color);
 }
 
 .Accomplishment {

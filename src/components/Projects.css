@@ -17,6 +17,7 @@
 .Project-Grid {
     display: grid;
     grid-template-columns: 0.2fr 1fr;
+    margin-left: var(--left-padding);
 }
 
 .Project-Title {
@@ -24,6 +25,7 @@
     text-align: left;
     margin-top: 3%;
     margin-bottom: 2%;
+    margin-left: var(--left-padding);
     color: var(--primary-font-color);
 }
 
@@ -31,6 +33,13 @@
     margin-bottom: 1%;
     color: var(--other-color);
     text-decoration: underline;
+}
+
+.Description {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    color: var(--secondary-font-color);
 }
 
 a.Link:link {
