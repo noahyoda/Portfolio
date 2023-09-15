@@ -1,4 +1,5 @@
 import './Projects.css'
+import React from 'react'
 
 function Project(props){
     if (props.link === ""){
@@ -42,20 +43,9 @@ export default function Projects(props) {
                 }
                 )}
             </div>
+            {/*
+            <h3 className="Project-Title">Hackathons</h3>
+            */}
         </div>
     )
 }
-
-/*
-{exp.map((item) => {
-    return (
-        <div className='ExperienceItem'>
-            <div className="Date-Column">
-                <h3 className='Date'>{item.time}</h3>
-            </div>
-            <SingleExperience title={item.title} company={item.company} link={item.link} time={item.time} description={item.description} accomplishments={item.accomplishments}/>
-        </div>
-    )
-}
-)}
-*/
