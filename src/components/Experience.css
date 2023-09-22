@@ -19,7 +19,7 @@ h2 {
 
 .ExperienceItem {
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
+    grid-template-columns: fit-content(400px) 1fr;
     padding-top: var(--vertical-padding);
     padding-bottom: var(--vertical-padding);
     font-family: 'OCR A std', monospace;
@@ -29,9 +29,9 @@ h2 {
     font-size: 14px;
     text-align: left;
     margin-left: var(--left-padding);
-    margin-right: 2%;
     margin-top: 2.5%;
-    width: 80%;
+    margin-right: 30px;
+    width: 100%;
     color: var(--secondary-font-color);
 }
 

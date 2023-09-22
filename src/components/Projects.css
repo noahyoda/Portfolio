@@ -16,7 +16,7 @@
 
 .Project-Grid {
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
+    grid-template-columns: fit-content(150px) 1fr;
     margin-left: var(--left-padding);
 }
 

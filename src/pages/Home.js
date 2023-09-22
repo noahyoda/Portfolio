@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Experience from "../components/Experience";
+import Player from "../components/Player";
+import "./Home.css";
 
 function Home() {
   let projs = [
@@ -121,6 +123,9 @@ function Home() {
         <Projects proj={projs}/>
         <Experience type={"Volunteer"} exp={volunteer}/>
       </main>
+      <div className="Background-Animation">
+        <Player />
+      </div>
     </div>
   );
 }
