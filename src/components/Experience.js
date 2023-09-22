@@ -6,7 +6,7 @@ function SingleExperience(props) {
         <div className="Exp-Column">
             <h3 className='Title'>{props.title}</h3>
             <a className='Link' href={props.link}>
-                <h3 className='Link-Text'>{props.company} <i class="fa fa-chain"></i></h3>
+                <h3 className='Link-Text'>{props.company} <i className="fa fa-chain"></i></h3>
             </a>
             <h4 className='KeyAccomp SubTitle'><u>Key Accomplishments</u></h4>
             {props.accomplishments.map((item) => {
@@ -23,7 +23,7 @@ function SingleExperience(props) {
 export default function Experience(props) {
     return (
         <div className="ExperienceView">
-            <h2 classname="SubHeader">{props.type} Experience</h2>
+            <h2 className="SubHeader">{props.type} Experience</h2>
             {props.exp.map((item) => {
                 return (
                     <div className='ExperienceItem'>

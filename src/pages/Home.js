@@ -123,7 +123,7 @@ function Home() {
         <Projects proj={projs}/>
         <Experience type={"Volunteer"} exp={volunteer}/>
       </main>
-      <div className="Background-Animation">
+      <div className="Background-Sphere-Animation">
         <Player />
       </div>
     </div>

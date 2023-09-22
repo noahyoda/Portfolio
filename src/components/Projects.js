@@ -4,7 +4,7 @@ import React from 'react'
 function Project(props){
     if (props.link === ""){
         return (
-            <div classname="ProjectItem">
+            <div className="ProjectItem">
                 <h3 className="ProjectInfo">{props.title}</h3>
                 <p className="Description">{props.description}</p>
             </div>
@@ -12,9 +12,9 @@ function Project(props){
     } else {
         // link element is for chain symbol
         return (
-            <div classname="ProjectItem">
+            <div className="ProjectItem">
                 <a className="Link" href={props.link}>
-                    <h3 className="ProjectInfo">{props.title} <i class="fa fa-chain"></i></h3>
+                    <h3 className="ProjectInfo">{props.title} <i className="fa fa-chain"></i></h3>
                 </a>
                 <p className="Description">{props.description}</p>
             </div>
